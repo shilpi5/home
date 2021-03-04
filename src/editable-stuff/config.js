@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Shilpi",
   middleName: "",
   lastName: "Kumari",
-  message: " Software Engineer | coder | Leisure Artist ",
+  message: " Software Engineer|coder|Leisure Artist ",
   icons: [
     {
       image: "fa-github",
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "Enthusiastic software engineer with 2 years experience participating in the complete product development lifecycle of successfully launched applications. Worked in developing Continuous Integration/ Delivery pipeline, I have knowledge of major cloud service providers, like AWS and Azure,  software containerization platforms like Docker and container orchestration tools like Kubernetes. Looking forward to applying the acquired gamut of skills in a challenging role",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
