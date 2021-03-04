@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Shilpi",
   middleName: "",
   lastName: "Kumari",
-  message: " Software Engineer ",
+  message: " Software Engineer | coder | Leisure Artist ",
   icons: [
     {
       image: "fa-github",
@@ -41,7 +41,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/shilpi.jpg"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/shilpi.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Enthusiastic software engineer with 2 years experience participating in the complete product development lifecycle of successfully launched applications. Worked in developing Continuous Integration/ Delivery pipeline, I have knowledge of major cloud service providers, like AWS and Azure,  software containerization platforms like Docker and container orchestration tools like Kubernetes. Looking forward to applying the acquired gamut of skills in a challenging role",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "shilpi57",
   reposLength: 4,
   specificRepos: [],
 };
@@ -100,14 +100,18 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
+   
+    { name: "Java", value: 80 },
+    { name: "Python", value: 70 },
+    { name: "goLang", value: 50 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Data Structures", value: 85 },
+    { name: "SQL", value: 60 },
+    { name: "Kubernetes", value: 70 },
+    { name: "AWS Cloud Platform", value: 50 },
+    { name: "Azure Cloud Platform", value: 40 },
+    { name: "Logging and monitoring tools", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -115,9 +119,6 @@ const skills = {
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
   ],
 };
 
