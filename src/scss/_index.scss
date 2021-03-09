@@ -129,3 +129,18 @@ code {
     animation: progress 1.5s ease-in-out forwards;
   }
 }
+
+.shadow {
+  box-shadow: 0 0 0 1px black;
+  
+  &:hover {
+    box-shadow: 0 0 0 3px black;
+  }
+}
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 0;
+}

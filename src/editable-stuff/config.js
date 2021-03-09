@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/shilpi.jpg"),
   imageSize: 375,
   message:
-    "Enthusiastic software engineer with 2 years experience participating in the complete product development lifecycle of successfully launched applications. Worked in developing Continuous Integration/ Delivery pipeline, I have knowledge of major cloud service providers, like AWS and Azure,  software containerization platforms like Docker and container orchestration tools like Kubernetes. Looking forward to applying the acquired gamut of skills in a challenging role",
+    "Enthusiastic software engineer with 2 years experience participating in the complete product development lifecycle of successfully launched applications. Designed Continuous Integration/ Delivery pipeline, gained knowledge on major cloud service providers, like AWS and Azure,  software containerization platforms like Docker and container orchestration tools like Kubernetes. Looking forward to applying the acquired gamut of skills in a challenging role",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -64,7 +64,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "shilpi57",
   reposLength: 4,
@@ -132,18 +132,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      // companylogo: require('../assets/img/dell.png'),
+      date: 'August 2019 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Intern',
+      // companylogo: require('../assets/img/boeing.png'),
+      date: 'Jan 2019 – July 2019',
     },
   ]
 }
