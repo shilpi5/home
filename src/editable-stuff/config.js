@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/shilpi57",
+      url: "https://github.com/shilpi5",
     },
     // {
     //   image: "fa-facebook",
@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: false,
   heading: "Recent Projects",
-  gitHubUsername: "shilpi57",
+  gitHubUsername: "shilpi5",
   reposLength: 4,
   specificRepos: [],
 };
@@ -115,7 +115,7 @@ const skills = {
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
+    { name: "Collaboration", value: 91 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
