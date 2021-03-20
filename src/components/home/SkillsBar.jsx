@@ -3,9 +3,9 @@ import React from "react";
 
 function SkillsBar({ skill, value, isScrolled }) {
   return (
-    <div className="shadow">
+    <div className="shadow" >
        
-         <p className="p" className="lead mb-1 mt-2">{skill}</p>
+         <p className="p">{skill} </p>
   
       {/* <ProgressBar
         className={!isScrolled ? "progress" : " progress-bar-animation"}

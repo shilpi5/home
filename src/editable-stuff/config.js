@@ -5,11 +5,12 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  // gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#E73C7E, #23A6D5, #23D5AB, #893FA6",
   firstName: "Shilpi",
   middleName: "",
   lastName: "Kumari",
-  message: " Software Engineer|coder|Leisure Artist ",
+  message: " Software Engineer|Leisure Artist|Kalimba Learner",
   icons: [
     {
       image: "fa-github",
@@ -45,7 +46,7 @@ const mainBody = {
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
+//     i.e resume: require("../editable-stuff/shilpi-resume.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
@@ -55,7 +56,7 @@ const about = {
   imageSize: 375,
   message:
     "Enthusiastic software engineer with 2 years experience participating in the complete product development lifecycle of successfully launched applications. Designed Continuous Integration/ Delivery pipeline, gained knowledge on major cloud service providers, like AWS and Azure,  software containerization platforms like Docker and container orchestration tools like Kubernetes. Looking forward to applying the acquired gamut of skills in a challenging role",
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: require("../editable-stuff/shilpi-resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -72,26 +73,30 @@ const repos = {
 };
 
 // Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+const workExperience = {
+  show: true,
+  heading: "Work Experience",
+  // message:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/shilpi.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/Shape.png"), 
+      label: "Software Engineer", 
+      date: 'August 2019 – Present',
+      paragraph: "1. Integrated logging and monitoring stacks on aws cloud platform in production environment for troubleshooting application and infrastructure performance. - 2. Configured S3 bucket in aws to archive kube logs. Worked with IAM role and policy creation, managing secretes on secret manager. - 3. Deployed and maintained application on cloudnative microservices architecture for one of the international bank client. Implemented Jenkins Jobs to make deployment easier.",
+      fontSizeNum: "10"
     },
     { 
-      img: require("../editable-stuff/shilpi.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/Shape.png"), 
+      label: "Intern", 
+      date: 'Jan 2019 – July 2019',
+      paragraph: "1. Developed spring boot application to test the performance of gRPC services and generate report for the same. - 2. Worked with kafka, spring boot, gRPC technologies for product development. - 3. Gained knowledge of custom kubernetes operator and its working in kubernetes cluster for CI/CD pipeline." ,
+      fontSizeNum: "20"
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"1000",
+    height:"400"
   }
 };
 
@@ -108,10 +113,10 @@ const skills = {
     { name: "HTML/CSS", value: 55 },
     { name: "Data Structures", value: 85 },
     { name: "SQL", value: 60 },
+    { name: "Logging and monitoring tools", value: 70 },
     { name: "Kubernetes", value: 70 },
     { name: "AWS Cloud Platform", value: 50 },
     { name: "Azure Cloud Platform", value: 40 },
-    { name: "Logging and monitoring tools", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -132,13 +137,14 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
       // companylogo: require('../assets/img/dell.png'),
       date: 'August 2019 – Present',
+      message: "1. Integrated logging and monitoring stacks on aws cloud platform in production environment for troubleshooting application and infrastructure performance. 2. Configured S3 bucket in aws to archive kube logs. Worked with IAM role and policy creation, managing secretes on secret manager. 3. Deployed and maintained application on cloud-native microservices architecture for one of the international bank client. Implemented Jenkins Jobs to make deployment easier. "
     },
     {
       role: 'Intern',
@@ -153,4 +159,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, workExperience, getInTouch, experiences };
