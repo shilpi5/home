@@ -141,10 +141,10 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Software  Engineer',// Here Add Company Name
       // companylogo: require('../assets/img/dell.png'),
       date: 'August 2019 – Present',
-      message: "1. Integrated logging and monitoring stacks on aws cloud platform in production environment for troubleshooting application and infrastructure performance. 2. Configured S3 bucket in aws to archive kube logs. Worked with IAM role and policy creation, managing secretes on secret manager. 3. Deployed and maintained application on cloud-native microservices architecture for one of the international bank client. Implemented Jenkins Jobs to make deployment easier. "
+      message: "1. Integrated  logging and monitoring stacks on aws cloud platform in production environment for troubleshooting application and infrastructure performance. 2. Configured S3 bucket in aws to archive kube logs. Worked with IAM role and policy creation, managing secretes on secret manager. 3. Deployed and maintained application on cloud-native microservices architecture for one of the international bank client. Implemented Jenkins Jobs to make deployment easier. "
     },
     {
       role: 'Intern',
