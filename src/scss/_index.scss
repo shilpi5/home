@@ -159,8 +159,9 @@ code {
   padding-top:2em;
 }
 
-.flexbox-container {
-  display: flex;
-  flex-direction: row;
-  width: 1em;
+@media screen and (max-width:600px){
+
+  .carousel-dynamic{
+    font-size: small;
+  }
 }

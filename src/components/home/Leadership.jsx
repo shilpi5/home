@@ -39,7 +39,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     
                  
                      
-                    <Carousel.Caption style={{transform:"translate(0,-10%)"}} >
+                    <Carousel.Caption style={{top: "20px"}} className="carousel-dynamic" >
                    
                       <h4 >{value.label}</h4>
                       <h5>{value.date}</h5>
