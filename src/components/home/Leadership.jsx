@@ -30,7 +30,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                   
                   <Carousel.Item>
                     <img
-                      className="f-bloc w-100"
+                      className="g-bloc w-100"
                       src={value.img}
                       alt="First slide"
                       width={imageSize.width}
