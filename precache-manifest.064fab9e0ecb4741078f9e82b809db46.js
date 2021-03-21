@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6af9be2478b90cd14eea03707226e57",
+    "revision": "d7db5601f30f168127956f45f202a1d1",
     "url": "/home/index.html"
   },
   {
-    "revision": "c3268197c175a78191b9",
+    "revision": "38b55b03e518bbea81db",
     "url": "/home/static/css/main.40542f78.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.55d09c6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3268197c175a78191b9",
-    "url": "/home/static/js/main.45326e97.chunk.js"
+    "revision": "38b55b03e518bbea81db",
+    "url": "/home/static/js/main.595bd637.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
     "url": "/home/static/js/runtime-main.3c590061.js"
   },
   {
-    "revision": "2172a9100f6b5b53c787a33fd19d7b88",
-    "url": "/home/static/media/shilpi-resume.2172a910.pdf"
+    "revision": "508c79f30d46c37dd11dfd0296115c59",
+    "url": "/home/static/media/shilpi-resume.508c79f3.pdf"
   },
   {
     "revision": "4bf3d13e5f4f8efc556b07f76bbe81b9",
