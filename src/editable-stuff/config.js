@@ -10,7 +10,7 @@ const mainBody = {
   firstName: "Shilpi",
   middleName: "",
   lastName: "Kumari",
-  message: " Software Engineer|Leisure Artist|Kalimba Learner",
+  message: " Software Engineer | Leisure Artist | Kalimba Learner",
   icons: [
     {
       image: "fa-github",
@@ -26,7 +26,7 @@ const mainBody = {
     // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/shilpi-kumari-94b570128/",
+      url: "https://in.linkedin.com/in/kshilpi",
     },
     // {
     //   image: "fa-twitter",
