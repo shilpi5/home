@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Shilpi's Personal Website ✨</h1>
+  <h1 align="center">Personal Website ✨</h1>
   <p align="center">
     The personal website/portfolio of Shilpi Kumari, hosted with GitHub Pages. Built using React and Bootstrap. Site URL / Demo: 
     <a href="https://shilpi5.github.io/home/">Shilpi's Personal Website</a>
