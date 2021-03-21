@@ -75,7 +75,3 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
    ```https
      https://<your-username>.github.io/home
    ```
-
-## License
-
-[LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html)
