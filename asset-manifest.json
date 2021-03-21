@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.40542f78.chunk.css",
-    "main.js": "/home/static/js/main.3976df71.chunk.js",
-    "main.js.map": "/home/static/js/main.3976df71.chunk.js.map",
+    "main.css": "/home/static/css/main.28080bb6.chunk.css",
+    "main.js": "/home/static/js/main.ce2ba7a8.chunk.js",
+    "main.js.map": "/home/static/js/main.ce2ba7a8.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
     "static/js/2.55d09c6b.chunk.js": "/home/static/js/2.55d09c6b.chunk.js",
     "static/js/2.55d09c6b.chunk.js.map": "/home/static/js/2.55d09c6b.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.6db885ff810c7ee4bc5a2b0cfe8f7bc1.js": "/home/precache-manifest.6db885ff810c7ee4bc5a2b0cfe8f7bc1.js",
+    "precache-manifest.7f7118f092c83608d8f3a464d0968db2.js": "/home/precache-manifest.7f7118f092c83608d8f3a464d0968db2.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.40542f78.chunk.css.map": "/home/static/css/main.40542f78.chunk.css.map",
+    "static/css/main.28080bb6.chunk.css.map": "/home/static/css/main.28080bb6.chunk.css.map",
     "static/js/2.55d09c6b.chunk.js.LICENSE.txt": "/home/static/js/2.55d09c6b.chunk.js.LICENSE.txt",
     "static/media/shilpi-resume.pdf": "/home/static/media/shilpi-resume.1afc67e7.pdf",
     "static/media/shilpi.jpg": "/home/static/media/shilpi.4bf3d13e.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3c590061.js",
     "static/js/2.55d09c6b.chunk.js",
-    "static/css/main.40542f78.chunk.css",
-    "static/js/main.3976df71.chunk.js"
+    "static/css/main.28080bb6.chunk.css",
+    "static/js/main.ce2ba7a8.chunk.js"
   ]
 }
